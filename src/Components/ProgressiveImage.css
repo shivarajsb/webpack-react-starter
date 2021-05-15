@@ -1,0 +1,14 @@
+.progressiveImage {
+  animation: animate 1s;
+  opacity: 1;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    filter:blur(10px) ;
+  }
+  100% {
+    opacity: 1;
+  }
+}
